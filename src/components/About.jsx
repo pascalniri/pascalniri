@@ -8,9 +8,10 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className='bg-[#1E2326] h-full py-[50px] mx-auto px-4'>
+    <div className='bg-[#1E2326] min-h-screen py-[50px] mx-auto px-4 sm:px-[100px] md:px-[150px] lg:grid lg:grid-cols-2 lg:gap-[100px]'>
         <div className=''>
             <h1 className='text-[#01FFFF] font-primaryFont text-[30px] pt-[50px] mb-[20px]'>About Me</h1>
+            <img src="./profile.jpg" alt="" className='w-[200px] h-[200px] rounded-[50%] my-[50px]' />
             <p className='text-white font-secondaryFont text-[15px]'>
             I'm a passionate and creative UI/UX designer and front-end developer
           with 3 years of experience. I specialize in designing user-centric
