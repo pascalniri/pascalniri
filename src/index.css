@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 #home{
-    background-image:url("./bg.jpg");
+    background-image:url("bg.jpg");
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
