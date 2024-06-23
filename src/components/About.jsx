@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { useState} from 'react'
 import { SiNextdotjs } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
 import { FaFigma } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
-
+import profile from '../assets/profile.jpg'
 const About = () => {
+
+    const [isVisible, setIsVisible] = useState(false);
+
+    const toggleVisibility = () => {
+        setIsVisible(!isVisible);
+      };
   return (
-    <div className='bg-[#1E2326] min-h-screen py-[50px] mx-auto px-4 sm:px-[100px] md:px-[150px]  lg:gap-[100px] lg:flex lg:justify-center '>
+    <div>
+    <div className='py-[50px] mx-auto px-4 sm:px-[100px] md:px-[150px]  lg:gap-[100px] lg:flex lg:justify-center '>
         <div className='lg:w-[50%]'>
             <h1 className='text-[#01FFFF] font-primaryFont text-[30px] pt-[50px] mb-[20px]'>About Me</h1>
-            <img src="./profile.jpg" alt="" className='w-[200px] rounded-[20px] my-[50px]' />
+            <img src={profile} alt="" className='w-[200px] rounded-[20px] my-[50px]' />
             <p className='text-[#6d8092] font-thin font-primaryFont text-[15px]'>
             With a strong foundation in user research, wireframing, and prototyping, coupled with proficiency in HTML, CSS, JavaScript, Next Js, and React, I strive to bridge the gap between design and development. My toolkit includes industry-standard software like Figma and Git, enabling me to bring ideas to life efficiently and effectively.
             </p>
@@ -54,6 +61,7 @@ const About = () => {
                 </ul>
             </div>
         </div>
+    </div>
     </div>
   )
 }

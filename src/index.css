@@ -3,11 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#home{
-    background-image:url("bg.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover;
-    min-height:100vh;
-    padding:100px 0px;
+body{
+    background-color:#1E2326;
 }
