@@ -8,28 +8,26 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className='bg-[#1E2326] min-h-screen py-[50px] mx-auto px-4 sm:px-[100px] md:px-[150px] lg:grid lg:grid-cols-2 lg:gap-[100px]'>
-        <div className=''>
+    <div className='bg-[#1E2326] min-h-screen py-[50px] mx-auto px-4 sm:px-[100px] md:px-[150px]  lg:gap-[100px] lg:flex lg:justify-center '>
+        <div className='lg:w-[50%]'>
             <h1 className='text-[#01FFFF] font-primaryFont text-[30px] pt-[50px] mb-[20px]'>About Me</h1>
-            <img src="./profile.jpg" alt="" className='w-[200px] h-[200px] rounded-[50%] my-[50px]' />
-            <p className='text-white font-secondaryFont text-[15px]'>
-            I'm a passionate and creative UI/UX designer and front-end developer
-          with 3 years of experience. I specialize in designing user-centric
-          interfaces and developing responsive, interactive websites and
-          applications. My goal is to bridge the gap between design and
-          technology to create seamless and engaging user experiences.
+            <img src="./profile.jpg" alt="" className='w-[200px] rounded-[20px] my-[50px]' />
+            <p className='text-[#6d8092] font-thin font-primaryFont text-[15px]'>
+            With a strong foundation in user research, wireframing, and prototyping, coupled with proficiency in HTML, CSS, JavaScript, Next Js, and React, I strive to bridge the gap between design and development. My toolkit includes industry-standard software like Figma and Git, enabling me to bring ideas to life efficiently and effectively.
+            </p>
+            <p className='text-[#6d8092] mt-[40px] font-thin font-primaryFont text-[15px]'>
+            Throughout my career, I have had the privilege of working with notable companies such as <a href="https://caritasrwanda.org/" className='text-[#01FFFF]'>Caritas Rwanda</a>, and <a href="https://demo.efiche.rw/" className='text-[#01FFFF]'>eFiche</a>, where I contributed to the successful redesign of several high-traffic websites, resulting in a 20% increase in user engagement. My design philosophy centers around creating user-friendly, accessible, and aesthetically pleasing interfaces that resonate with users and achieve business goals.
             </p>
         </div>
 
-        <div className='mt-[50px]'>
-            <h1 className='text-[#919191] font-primaryFont text-[25px] mb-[20px]'>
+        <div className='mt-[50px] lg:w-[50%]'>
+            <h1 className='text-[#01FFFF] font-primaryFont text-[25px] mb-[20px]'>
                 Technologies
             </h1>
-            <p className='text-white font-secondaryFont text-[15px]'>
-            I'm a passionate and creative UI/UX designer and front-end developer
-            with 3 years of experience. I specialize in 
+            <p className='text-[#6d8092] font-primaryFont text-[15px]'>
+            I specialize in using a range of cutting-edge technologies to design and develop seamless user experiences. My core skills include:
             </p>
-            <div className='text-white mt-[50px] font-secondaryFont grid grid-cols-2 gap-9'>
+            <div className='text-[#6d8092] mt-[50px] font-primaryFont grid grid-cols-2 gap-9'>
                 <ul className='hover:text-[#01FFFF] w-[120px]'>
                     <li className='flex items-center gap-2'><GrReactjs className='text-[#01FFFF] w-[30px] h-[30px]' /><a href="https://react.dev/blog/2023/03/16/introducing-react-dev">
                          React Js</a></li>
@@ -46,7 +44,7 @@ const About = () => {
                     <li className='flex items-center gap-2'><FaHtml5 className='text-[#01FFFF] w-[30px] h-[30px]' />
                     <a href="https://www.w3schools.com/html/html_intro.asp">HTML</a></li>
                 </ul>
-                <ul className='hover:text-[#01FFFF] w-[120px]'>
+                <ul className='hover:text-[#01FFFF] w-[150px]'>
                     <li className='flex items-center gap-2'><RiJavascriptFill className='text-[#01FFFF] w-[30px] h-[30px]' />
                     <a href="https://www.w3schools.com/js/">Javascript</a></li>
                 </ul>

@@ -8,9 +8,9 @@ export default {
     extend: {},
     fontFamily:{
       primaryFont:["Alata", "sans-serif"],
-      secondaryFont:["IBM Plex Mono", "monospace"],
-      primaryColor:["#01FFFF"]
+      secondaryFont:["IBM Plex Mono", "monospace"]
     },
+    
   },
   plugins: [],
 }

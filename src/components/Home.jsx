@@ -27,7 +27,7 @@ const Home = () => {
   ];
   return (
     <div id="home">
-    <div className="flex flex-col justify-center align-center w-full  mx-auto px-4 md:mx-auto md:px-[100px]">
+    <div className="flex flex-col justify-center align-center w-full  mx-auto px-4 md:mx-auto md:px-[100px] lg:flex lg:justify-center lg:items-center">
       <div className="flex flex-col justify-center text-center">
         <h1 className="text-white font-primaryFont mb-[50px] font-bold text-[40px] md:text-[60px] ">
           Pascal Niri
